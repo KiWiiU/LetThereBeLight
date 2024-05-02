@@ -5758,7 +5758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nxt: GameOver
-  alt: secret1
+  alt: GameOver
   change: 0
   w: 1
 --- !u!114 &728237155

@@ -132,7 +132,7 @@ public class WinManager : MonoBehaviour
          if (w3){
            SceneManager.LoadScene("World3");}
          if (w4){
-           SceneManager.LoadScene("World4");}
+           SceneManager.LoadScene("World3");}
        }
      }
 }

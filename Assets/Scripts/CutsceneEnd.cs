@@ -10,7 +10,7 @@ public class CutsceneEnd : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             if (Holder.endHalf[4])
-                SceneManager.LoadScene("World4");
+                SceneManager.LoadScene("World3");
             else if (Holder.W2C5)
                 SceneManager.LoadScene("World3");
             else if (Holder.L[4])
