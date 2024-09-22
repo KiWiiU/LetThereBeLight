@@ -12,9 +12,6 @@ public class WinManager : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
        if(other.CompareTag("Player")){
-        if (Holder.history[1] == '2')
-          change = Holder.history[1];
-        else
           change = Holder.history[5];
 
          switch(change){
@@ -77,26 +74,6 @@ public class WinManager : MonoBehaviour
            case 'F':
              Holder.endHalf[4] = true;
              w3 = true;
-             break;
-           case 'G':
-             Holder.endHalf[5] = true;
-             w4 = true;
-             break;
-           case 'H':
-             Holder.endHalf[6] = true;
-             w4 = true;
-             break;
-           case 'I':
-             Holder.endHalf[7] = true;
-             w4 = true;
-             break;
-           case 'J':
-             Holder.endHalf[8] = true;
-             w4 = true;
-             break;
-           case 'K':
-             Holder.endHalf[9] = true;
-             w4 = true;
              break;
            default:
              break;
