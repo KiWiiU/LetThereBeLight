@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class Save1 : MonoBehaviour
+public class Save : MonoBehaviour
 {
 public string le = "__";
     // Start is called before the first frame update
@@ -58,7 +58,7 @@ public string le = "__";
 	      Holder.L[4] = true;
 	      Holder.W2C1 = true;
 	      Holder.W2C2 = true;
-	  break;
+		  break;
         case "__8":
 	      Holder.L[0] = true;
 	      Holder.L[1] = true;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.037472427, g: 0.0016344492, b: 0.15860331, a: 1}
+  m_IndirectSpecularColor: {r: 0.00977451, g: 0.0004263661, b: 0.041375678, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2143,22 +2143,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c6a55ba99e9e99d41b7eef123e311a43,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 18.922894
+      value: 19.055353
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6a55ba99e9e99d41b7eef123e311a43,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10.6151495
+      value: 11.72231
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6a55ba99e9e99d41b7eef123e311a43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4
+      value: 1.5655
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6a55ba99e9e99d41b7eef123e311a43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9
+      value: -0.3137
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6a55ba99e9e99d41b7eef123e311a43,
         type: 3}
@@ -2209,7 +2209,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: afc0ae739da22474da2193a306591045, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c8f5abed6b789d49a78c1bb5c603165, type: 2}
     - target: {fileID: 919132149155446097, guid: c6a55ba99e9e99d41b7eef123e311a43,
         type: 3}
       propertyPath: m_Name
@@ -9161,6 +9161,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1d087218be2a11b4d92bc1214d84207a, type: 2}
+    - target: {fileID: 5420857361349278248, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: cursorLocked
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: MoveSpeed

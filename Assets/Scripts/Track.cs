@@ -30,18 +30,6 @@ public class Track : MonoBehaviour
           case '5':
             Holder.history = "-----F";
             break;
-          case '6':
-            Holder.history = "-----G";
-            break;
-          case '7':
-            Holder.history = "-----H";
-            break;
-          case '8':
-            Holder.history = "-----I";
-            break;
-          case '9':
-            Holder.history = "-----J";
-            break;
         }
       }
     }

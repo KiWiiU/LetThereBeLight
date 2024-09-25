@@ -6,7 +6,7 @@ using System.IO;
 
 public class WinManager : MonoBehaviour
 {
-    public bool w1 = false, w2 = false, w3 = false, w4 = false;
+    public bool w1 = false, w2 = false, w3 = false;
     public static int farthest = 0;
     char change =  '1';
 
@@ -79,12 +79,6 @@ public class WinManager : MonoBehaviour
              break;
          }
 // saving
-
-         for (int a = 9; a > 0; a--){
-	       if (Holder.endHalf[a]){
-                 farthest = a + 11;
-	       }
-         }
          if (Holder.W2C5){
            farthest = 10;
          } else if (Holder.W2C4){
@@ -97,7 +91,11 @@ public class WinManager : MonoBehaviour
              farthest = 3;} else if (Holder.L[1]){
              farthest = 2;} else if (Holder.L[0]){
              farthest = 1;}
-
+         for (int a = 9; a > 0; a--){
+           if (Holder.endHalf[a]){
+             farthest = a + 11;
+           }
+         }
          using (StreamWriter writer = new StreamWriter("TheRealSaveFile.txt")){
            writer.WriteLine(farthest);
          }
@@ -107,8 +105,6 @@ public class WinManager : MonoBehaviour
          if (w2){
            SceneManager.LoadScene("World2");}
          if (w3){
-           SceneManager.LoadScene("World3");}
-         if (w4){
            SceneManager.LoadScene("World3");}
        }
      }
