@@ -1161,7 +1161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelDoor: {fileID: 139927270}
   index: 1
-  scene: L2
+  scene: Level2
   oof: {fileID: 139927276}
 --- !u!1001 &141333852
 PrefabInstance:
