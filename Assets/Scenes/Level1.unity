@@ -5763,7 +5763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nxt: GameOver
-  alt: GameOver
+  alt: secret1
   change: 0
   w: 1
 --- !u!114 &728237155
