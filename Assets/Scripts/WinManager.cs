@@ -91,7 +91,7 @@ public class WinManager : MonoBehaviour
              farthest = 3;} else if (Holder.L[1]){
              farthest = 2;} else if (Holder.L[0]){
              farthest = 1;}
-         for (int a = 9; a > 0; a--){
+         for (int a = 0; a < 5; a++){
            if (Holder.endHalf[a]){
              farthest = a + 11;
            }
